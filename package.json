@@ -1,0 +1,14 @@
+{
+  "name": "TwitchChatBot",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "tmi.js": "^1.7.5"
+  }
+}
