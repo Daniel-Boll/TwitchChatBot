@@ -1,4 +1,6 @@
-module.exports = (client, tokens) => {
+const { client } = require("../config/client");
+
+module.exports = (tokens) => {
   if (tokens.length == 0) {
     client.action("namelessblossom", "https://github.com/Daniel-Boll");
   } else {

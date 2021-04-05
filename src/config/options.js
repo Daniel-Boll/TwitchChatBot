@@ -1,6 +1,7 @@
 const { channels } = require("./constants");
 
 require("dotenv").config();
+const { BOT_PASSWORD } = process.env;
 
 const options = {
   options: {
@@ -12,7 +13,7 @@ const options = {
   },
   identity: {
     username: "NamelessBlossomBot",
-    password: process.env.BOT_PASSWORD,
+    password: BOT_PASSWORD,
   },
   channels,
 };
