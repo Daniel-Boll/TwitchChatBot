@@ -28,3 +28,15 @@ Possible parameters:
   ```
   !git ChatBot
   ```
+
+  - Falar
+  ```
+  !falar <lang> <phrase>
+  ```
+
+### TODO
+
+- Greeting (ao entrar na live, o bot sauda o seguidor(a))
+- Follow (ao dar follow, o bot fala uma mensagem personalizada)
+- !cronograma (cronograma da live atual)
+- Um rostinho que se mexe de acordo com a tts gerada pelo !falar
