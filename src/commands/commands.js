@@ -15,6 +15,11 @@ module.exports = (tokens) => {
     "!discord": {
       description: ["!discord ; Te envio o link do Discord da comunidade!"],
     },
+    "!falar": {
+      description: [
+        "!falar <lang> <phrase> ; Falo sua frase utilizando a linguagem que você sugeriu. (Apenas pt e jp por enquanto)",
+      ],
+    },
   };
 
   for (command in commands) {
