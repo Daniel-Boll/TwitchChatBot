@@ -11,8 +11,6 @@ module.exports = (tokens) => {
 
   exec(
     `powershell.exe -File "src/scripts/run.ps1" -Lang ${lang} -Phrase ${phrase}`,
-    (_, stdout, ___) => {
-      console.log(stdout);
-    }
+    (_, __, ___) => {}
   );
 };
